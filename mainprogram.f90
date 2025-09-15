@@ -22,7 +22,7 @@ read(10,*) Nequ !number of MCS for equilibrium
 read(10,*) Nmeas !number of measures
 read(10,*) Ninter!interval between measures
 read(10,*) kint !bending energy
-read(10,*) dir  !Extrusion directionility
+read(10,*) dir  !Extrusion directionility 1 for one-sided 2 for two-sided
 read(10,*) p !zero force processivity
 read(10,*) ro !zero force LEF binding
 read(10,*) km0 !zero force extrusion rate *1000
@@ -30,7 +30,7 @@ read(10,*) Ksmc !Spring constant between SMC legs *0.0062
 read(10,*) Fe !Extrusion rate charectrisitic force *0.13
 read(10,*) Fu !Unbinding rate charectrisitic force *0.13
 read(10,*) Nlef !maximal number of LEF
-read(10,*) Perm !Permebility of extruders
+read(10,*) Perm !Permebility of extruders between 0 and 1
 read(10,*) Fext !external force *0.13
 close(10)
 
