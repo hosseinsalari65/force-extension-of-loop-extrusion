@@ -9,10 +9,10 @@ Each line of `input.dat` corresponds to one parameter, in the order below:
 | ---------- | -----------------------------------------------------------| 
 | **Nchain** | Chain size (number of monomers) (in kbp)                   | 
 | **L**      | Box size (in `28.2` nm)                                    | 
-| **Niter**  | Number of iterations (Monte Carlo steps)                   |
-| **Nequ**   | Number of Monte Carlo steps for equilibration              |
+| **Niter**  | Number of iterations                                       |
+| **Nequ**   | Number of Monte Carlo steps (MCSs) for equilibration       |
 | **Nmeas**  | Number of measurements                                     |
-| **Ninter** | Interval between successive measurements                   | 
+| **Ninter** | Number of MCSs between successive measurements             | 
 | **kint**   | Bending energy (in k_BT)                                   | 
 | **dir**    | Extrusion directionality (`1` = one-sided, `2` = two-sided)| 
 | **p**      | Zero-force processivity (in kbp)                           |
