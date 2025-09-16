@@ -5,22 +5,22 @@ This code simulates the force-dependent loop-extrusion process of Structural Mai
 The simulation outputs the end-to-end vector of the polymer, which can be used to study conformational changes under varying mechanical and extrusion conditions.
 ## Input Parameters
 Each line of input.dat corresponds to one parameter, in the order below:
-| Parameter  | Description                                   | Notes / Units                    |
-| ---------- | --------------------------------------------- | -------------------------------- |
-| **Nchain** | Chain size (number of monomers)               | Integer                          |
-| **L**      | Box size                                      | Must be even                     |
-| **Niter**  | Number of iterations (Monte Carlo steps)      | Integer                          |
-| **Nequ**   | Number of Monte Carlo steps for equilibration | Integer                          |
-| **Nmeas**  | Number of measurements                        | Integer                          |
-| **Ninter** | Interval between successive measurements      | Integer                          |
-| **kint**   | Bending energy                                | Energy units                     |
-| **dir**    | Extrusion directionality                      | `1` = one-sided, `2` = two-sided |
-| **p**      | Zero-force processivity                       |                                  |
-| **ro**     | Zero-force LEF binding rate                   |                                  |
-| **km0**    | Zero-force extrusion rate                     |                                  |
-| **Ksmc**   | Spring constant between SMC legs              |                                  |
-| **Fe**     | Characteristic force for extrusion rate       | Force units                      |
-| **Fu**     | Characteristic force for unbinding rate       | Force units                      |
-| **Nlef**   | Maximum number of LEFs in the system          | Integer                          |
-| **Perm**   | Permeability of extruders                     | Between `0` and `1`              |
-| **Fext**   | External force                                | Force units                      |
+| Parameter  | Description                                                | 
+| ---------- | -----------------------------------------------------------| 
+| **Nchain** | Chain size (number of monomers) (in kbp)                   | 
+| **L**      | Box size (in 28.2 nm)                                      | 
+| **Niter**  | Number of iterations (Monte Carlo steps)                   |
+| **Nequ**   | Number of Monte Carlo steps for equilibration              |
+| **Nmeas**  | Number of measurements                                     |
+| **Ninter** | Interval between successive measurements                   | 
+| **kint**   | Bending energy (in k_BT)                                   | 
+| **dir**    | Extrusion directionality, `1` = one-sided, `2` = two-sided | 
+| **p**      | Zero-force processivity (in kbp)                           |
+| **ro**     | Zero-force LEF binding rate                                |
+| **km0**    | Zero-force extrusion rate (in 1000 kbp/s)                  |
+| **Ksmc**   | Spring constant between SMC legs (in 0.062 pN/nm)          |
+| **Fe**     | Characteristic force for extrusion rate (in 0.13 pN)       | 
+| **Fu**     | Characteristic force for unbinding rate (in 0.13 pN)       | 
+| **Nlef**   | Maximum number of LEFs in the system                       |
+| **Perm**   | Permeability of extruders Between `0` and `1`              | 
+| **Fext**   | External force (in 0.13 pN)                                | 
