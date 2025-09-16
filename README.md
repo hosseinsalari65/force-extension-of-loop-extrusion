@@ -4,7 +4,7 @@ This code simulates the force-dependent loop-extrusion process of Structural Mai
 
 The simulation outputs the end-to-end vector of the polymer, which can be used to study conformational changes under varying mechanical and extrusion conditions.
 ## Input Parameters
-Each line of input.dat corresponds to one parameter, in the order below:
+Each line of `input.dat` corresponds to one parameter, in the order below:
 | Parameter  | Description                                                | 
 | ---------- | -----------------------------------------------------------| 
 | **Nchain** | Chain size (number of monomers) (in kbp)                   | 
