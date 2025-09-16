@@ -24,3 +24,4 @@ Each line of input.dat corresponds to one parameter, in the order below:
 | **Nlef**   | Maximum number of LEFs in the system                       |
 | **Perm**   | Permeability of extruders (Between `0` and `1`)            | 
 | **Fext**   | External force (in 0.13 pN)                                | 
+### Important: Ensure that L (box size) is an even number.
