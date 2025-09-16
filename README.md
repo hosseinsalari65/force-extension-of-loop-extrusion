@@ -18,7 +18,7 @@ Each line of `input.dat` corresponds to one parameter, in the order below:
 | **p**      | Zero-force processivity (in kbp)                           |
 | **ro**     | Zero-force LEF binding rate (between `0` and `1`)          |
 | **km0**    | Zero-force extrusion rate (in `1000` kbp/s)                |
-| **Ksmc**   | Spring constant between SMC legs (in `0.062` pN/nm)        |
+| **Ksmc**   | Spring constant between SMC legs (in `0.0062` pN/nm)       |
 | **Fe**     | Characteristic force for extrusion rate (in `0.13` pN)     | 
 | **Fu**     | Characteristic force for unbinding rate (in `0.13` pN)     | 
 | **Nlef**   | Maximum number of LEFs in the system                       |
