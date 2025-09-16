@@ -39,7 +39,8 @@ This file can be used to analyze:
 
 To compile and run the simulation, the following software is required:
 
-- **Fortran compiler** (e.g., `gfortran`)  
+- **Fortran compiler** (e.g., `gfortran`)
+- **C compiler** (e.g., `gcc`)
 - **GNU Make** (`make`)  
 - **Bash shell** (`bash`)  
 
