@@ -26,3 +26,47 @@ Each line of input.dat corresponds to one parameter, in the order below:
 | **Fext**   | External force (in 0.13 pN)                                | 
 
 **Important**: Ensure that L (box size) is an even number.
+
+## Output
+`eedz.out` → contains the polymer end-to-end vector at each measurement interval (Ninter).
+This file can be used to analyze:
+
+- Chain extension under different forces
+
+- Impact of loop extrusion on polymer compaction
+
+## Compilation and Running
+1. **Compile the code**  
+   Open a terminal in the project directory and run:
+   ```bash
+   make
+2. **Run the simulation**
+- Open the `script.sh` file.
+- Modify the simulation parameters if needed.
+- Save the file.
+- Run the program by executing:
+  ```bash
+  bash script.sh
+
+## Example Usage
+```text
+   500       :: Nchain 
+   20        :: L 
+   1         :: Niter 
+   1000000   :: Nequ 
+   1000      :: Nmeas 
+   1000      :: Ninter 
+   3.217     :: kint 
+   2         :: dir 
+   500.0     :: p 
+   0.5       :: ro 
+   1.0e-3    :: km0 
+   5.0       :: Ksmc 
+   1.5       :: Fe 
+   10.0      :: Fu 
+   10        :: Nlef 
+   0.0       :: Perm 
+   3.0       :: Fext
+```
+
+**Note**: This set of parameters runs in less than 5 minutes on a Mac Studio with an Apple M2 Ultra chip.
