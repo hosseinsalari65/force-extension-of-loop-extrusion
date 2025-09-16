@@ -35,6 +35,14 @@ This file can be used to analyze:
 
 - Impact of loop extrusion on polymer compaction
 
+## Software Requirements
+
+To compile and run the simulation, the following software is required:
+
+- **Fortran compiler** (e.g., `gfortran`)  
+- **GNU Make** (`make`)  
+- **Bash shell** (`bash`)  
+
 ## Compilation and Running
 1. **Compile the code**  
    Open a terminal in the project directory and run:
